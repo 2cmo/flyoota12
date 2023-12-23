@@ -12,11 +12,12 @@ var says = [
   "Schools Pretty Boring",
   "This Websites Trash", 
   "i took too long making this :(", 
-  "working on adding the undated 1v1.lol soon", 
+  "working on adding the updated 1v1.lol soon", 
   "the person who made this websites pretty cool", 
-  "i made this on the weekend :(",
+  "i made this over break:(",
   "hi reed",
   "hey kitten",
+  "fun fact: you'll never lose your progress because i'll just unblock the site after it gets blocked",
 ];
 
 function splashText() {
@@ -31,7 +32,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     .then((response) => response.json())
     .then((data) => {
       ipAddress = data.YourFuckingISP;
-      says.push(`umm your fucking ISP: ${ipAddress}`);
+      says.push(`umm your fucking ISP?: ${ipAddress}`);
       splashText();
     });
 });
