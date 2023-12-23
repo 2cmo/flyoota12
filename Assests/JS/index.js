@@ -3,24 +3,20 @@ var says = [
   "I hate working on flyoota",
   "Better than Bypass",
   "yes its open-source",
-  "no you shouldnt skid it",
   "what do i add?",
-  "idk how many games are in this lol",
+  "BETA at the momment",
   "optimized by ChatGPT",
   "archiving piksulh soon",
   "LunarOS 🔛🔝",
-  "i need ads on this site cuz i need money 😮",
+  "i need ads on this site cuz i need money 💵",
   "Schools Pretty Boring",
   "This Websites Trash", 
   "i took too long making this :(", 
   "working on adding the undated 1v1.lol soon", 
   "the person who made this websites pretty cool", 
-  "what day is it?", 
-  "i made this on the weekend :((((",
+  "i made this on the weekend :(",
   "hi reed",
-  "i hate myself",
-  "💀",
-  "hey e-kitten",
+  "hey kitten",
 ];
 
 function splashText() {
@@ -35,7 +31,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     .then((response) => response.json())
     .then((data) => {
       ipAddress = data.YourFuckingISP;
-      says.push(`umm your fucking isp: ${ipAddress}`);
+      says.push(`umm your fucking ISP: ${ipAddress}`);
       splashText();
     });
 });
