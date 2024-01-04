@@ -15,7 +15,7 @@ document.addEventListener("keydown", async (e) => {
   const panicData = JSON.parse(localStorage.getItem("panic"));
   if (panicData && panicData[0].key === e.key) {
     window.parent.window.location.replace(
-      panicData[0].url || "https://clever.com/in/bwrsd/student/portal"
+      panicData[0].url || "https://classroom.google.com/"
     );
   }
 });
