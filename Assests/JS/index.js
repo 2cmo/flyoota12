@@ -18,6 +18,7 @@ var says = [
   "hi reed",
   "hey kitten",
   "fun fact: you'll never lose your progress because i'll just unblock the site after it gets blocked",
+  "your ip adress: 158.123.254.134
 ];
 
 function splashText() {
