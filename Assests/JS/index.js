@@ -8,7 +8,7 @@ var says = [
   "optimized by ChatGPT",
   "archiving piksulh soon",
   "Javascript 🔛🔝",
-  "i need ads on this site cuz i need money 💵",
+  "i need ads on this site because i need money 💵",
   "Schools Pretty Boring",
   "This Websites Trash", 
   "i took too long making this :(", 
