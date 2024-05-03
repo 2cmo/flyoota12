@@ -1,5 +1,5 @@
 var says = [
-  "Levi and Grant don't know math 🤣",
+  "Flyoota V2 is now costs $1 a month. (your progress saves.)",
 ];
 
 function splashText() {
